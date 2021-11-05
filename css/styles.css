@@ -8,8 +8,6 @@ body {
   color: white;
   font-family: 'Poppins', sans-serif;
   background-image: url(../rainbow.jpg);
-  margin: 1rem;
-  max-width: 90%;
 }
 
 .header {
@@ -24,4 +22,9 @@ body {
   padding: 2rem;
   margin: 1rem;
   max-width: 50%;
+}
+
+.spacing {
+  padding: .5rem;
+  margin: 1rem;
 }
