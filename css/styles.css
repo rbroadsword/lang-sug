@@ -1,5 +1,25 @@
+* {
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box;
+}
 body {
   background-color: midnightblue;
   color: white;
   margin: 1rem;
+  max-width: 90%;
+}
+
+.header {
+  min-height: 50vh;
+  background-color: orchid;
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+}
+
+.form-1 {
+  padding: 2rem;
+  margin: 1rem;
+  max-width: 50%;
 }
