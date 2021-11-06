@@ -12,18 +12,19 @@
   <title>Language Suggester</title>
 </head>
 <body>
+  <div class="header">
+    <h1>Find a Programming Language Based on your Drag Persona</h1>
+    <p>Answer the questions below about your drag persona to see which programming language you should learn next!</p>
+    <img src="./img/giphy.gif" alt="tongue-pop">
+  </div>
+  <!--Main form-->
   <div class="container">
-    <div class="header">
-      <h1>Find a Programming Language Based on your Drag Persona</h1>
-      <p>Answer the questions below about your drag persona to see which programming language you should learn next!</p>
-      <img src="./img/giphy.gif" alt="tongue-pop">
-    </div>
-    <section class="container1" id="main">
+    <div class="container1 container" id="main">
       <div class="form-1">
         <form id="form-one">
           <div>
             <div class="form-group spacing">
-              <label  for="q1">What's your drag name honey?</label>
+              <label class="question" for="q1">What's your drag name honey?</label>
               <input type="text" id="drag-name" class="answer">
             </div>
             <h3 class="question">Pick your Drag Mother</h3>
@@ -77,38 +78,37 @@
               <input type="color" class="form-control answer" id="color">
             </div>
             <button type="submit" class="btn-success">Submit</button>
-          </form>
-        </div>
-      </div> 
-      <div>
-        <div>
-          <img src="./img/bob.jpg" alt="bob" class="bob">
-        </div>
+        </form>
       </div>
-    </section>
-    <section id="lang-1">
-      <div  class="container1">
-        <div class="result">
-          <h2>Java Script!</h2>
-          <p>Hey miss <span class="drag-name"></span>, Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni commodi reprehenderit earum quibusdam qui rem voluptas. Earum, corporis quae!</p>
-        </div>
-          <img class="result-img" src="./img/jackie.gif" alt="jackie-beat">
+    </div>
+    <div class="bob">
+      <img src="./img/bob.jpg" alt="bob">
+    </div>   
+  </div>
+<!--results section-->
+  <section id="lang-1">
+    <div  class="container1">
+      <div class="result">
+        <h2>Java Script!</h2>
+        <p>Hey miss <span class="drag-name"></span>, you should study up JavaScript! JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled and multi-paradigm. It has dynamic typing, prototype-based object-orientation and first-class <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">Click Here for More Info</a></p>
       </div>
-    </section>
-    <section id="lang-2">
-      <div class="container1">
-        <div class="result">
-          <h2>Python</h2>
-          <p>Hey miss <span class="drag-name"></span>,Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni commodi reprehenderit earum quibusdam qui rem voluptas. Earum, corporis quae!</p>
-        </div>
-          <img class="result-img" src="./img/bunny.gif" alt="bunny">
+        <img class="result-img" src="./img/jackie.gif" alt="jackie-beat">
+    </div>
+  </section>
+  <section id="lang-2">
+    <div class="container1">
+      <div class="result">
+        <h2>Python</h2>
+        <p>Hey miss <span class="drag-name"></span>, I knew you were gonna get Python, you're such a snake! Python is an interpreted high-level general-purpose programming language. Its design philosophy emphasizes code readability with its use of significant indentation. Its language constructs as well as its object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects. <a href="https://en.wikipedia.org/wiki/Python_(programming_language)" target="_blank">Click Here for More Info!</a></p>
       </div>
+        <img class="result-img" src="./img/bunny.gif" alt="bunny">
+    </div>
   </section>
   <section id="lang-3">
     <div  class="container1">
       <div class="result">
         <h2>C#</h2>
-        <p> Hey miss <span class="drag-name"></span>, Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni commodi reprehenderit earum quibusdam qui rem voluptas. Earum, corporis quae!</p>
+        <p> Hey miss <span class="drag-name"></span>, have you heard of C#?! C# is a general-purpose, multi-paradigm programming language. C# encompasses static typing, strong typing, lexically scoped, imperative, declarative, functional, generic, object-oriented, and component-oriented programming disciplines. <a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)" target="_blank">Click Here for More Info</a></p>
       </div>
         <img class="result-img" src="./img/cocoperu-coco.gif"  alt="coco-peru">
     </div>
