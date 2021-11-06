@@ -66,3 +66,12 @@ button {
   max-width: 10rem;
   margin:auto
 }
+#lang-1 {
+display: none;
+}
+#lang-2 {
+  display: none;
+}
+#lang-3 {
+  display: none;
+}
