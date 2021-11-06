@@ -36,4 +36,4 @@ A quiz that asks user questions about their drag persona and returns a programmi
 
 ## GH-Pages 
 
-* rbroadsword.github.io/lang-suj
+* rbroadsword.github.io/lang-sug
