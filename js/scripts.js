@@ -12,7 +12,7 @@ $(document).ready(function() {
       $(".drag-name").text(question1);
       $("#lang-3").toggle();
       $("#main").hide();
-    } else (result === 3) {
+    } else {
       $(".drag-name").text(question1);
       $("#lang-1").toggle();
       $("#main").hide();
