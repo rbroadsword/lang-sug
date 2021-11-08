@@ -39,6 +39,8 @@ body {
 .result h2 {
   font-size: 5rem;
 }
+
+
 .result-img {
   object-fit: fill;
   min-width: 40vw;
