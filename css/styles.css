@@ -31,10 +31,14 @@ body {
   align-items: center;
   background-image: linear-gradient(45deg, orchid, white);
 }
-.result h2, p{
+.result h2, p, h6{
   text-align: center;
   justify-content: center;
   padding: 1rem;
+}
+.clickable{
+  cursor: pointer;
+  color:midnightblue;
 }
 .result h2 {
   font-size: 5rem;
