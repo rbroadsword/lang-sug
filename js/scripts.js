@@ -9,15 +9,21 @@ $(document).ready(function() {
     if (result <= 13) {
       $(".drag-name").text(dragName);
       $("#lang-2").toggle();
-      $("#main").hide();
+      $("#main").toggle();
     } else if (result >= 14 && result <= 23) {
       $(".drag-name").text(dragName);
       $("#lang-3").toggle();
-      $("#main").hide();
+      $("#main").toggle();
     } else if (result >= 30) {
       $(".drag-name").text(dragName);
       $("#lang-1").toggle();
-      $("#main").hide();
+      $("#main").toggle();
     }
   });
+  $(".clickable").click(function(){
+    $("#lang-1").hide();
+    $("#lang-2").hide();
+    $("#lang-3").hide();
+    $("#main").show();
+  })
 });
